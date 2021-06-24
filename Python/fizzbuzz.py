@@ -1,5 +1,5 @@
 number = 0
-while number < 101:
+while number < 100:
   number = number +1
   if number%15 == 0:
     print("Fizzbuzz")
