@@ -1,9 +1,6 @@
 <?php
 $number= -1;
-
     while(++$number < 101){ 
-        
-    
         if (!($number%3) && !($number%5)){
            echo "Fizzbuzz <br/>";
         }elseif(!($number%5)){
@@ -12,6 +9,5 @@ $number= -1;
             echo "fizz <br/>";
         }else{
             echo $number."<br/>";
-        };
-        
+        };   
     }
